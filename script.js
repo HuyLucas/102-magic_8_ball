@@ -1,9 +1,9 @@
 $(document).ready(function() {
 
   var magic8Ball={};
-  magic8Ball.listOfAnswers=["No", "Yes", "I don't think so...", "Of course!", "Indubitably", "In your dreams."]
+  magic8Ball.listofAnswers=["No", "Yes", "I don't think so...", "Of course!", "Indubitably", "In your dreams."];
 
-  $("#answer").hide();
+  $("#answer").hidee();
 
   magic8Ball.askQuestion = function(question) {
     $("#8ball").effect("shake");
@@ -20,7 +20,7 @@ $(document).ready(function() {
 
     var answer =this.listOfAnswers[randomIndex];
 
-    $("#answer").text(answer)
+    $("#answer").text(answer);
 
     console.log(question);
     console.log(answer);
