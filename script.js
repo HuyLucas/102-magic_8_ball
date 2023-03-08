@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
-  var magic8Ball = {};
-  magic8Ball.listOfAnswers = ["No", "Yes", "I don't think so...", "Of course!", "Indubitably", "In your dreams."];
+  var magic8Ball={};
+  magic8Ball.listOfAnswers=["No", "Yes", "I don't think so...", "Of course!", "Indubitably", "In your dreams."]
 
   $("#answer").hide();
 
@@ -18,9 +18,9 @@ $(document).ready(function() {
 
     var randomIndex = Math.floor(randomNumberForListOfAnswers);
 
-    var answer = this.listOfAnswers[randomIndex];
+    var answer =this.listOfAnswers[randomIndex];
 
-    $("#answer").text(answer);
+    $("#answer").text(answer)
 
     console.log(question);
     console.log(answer);
