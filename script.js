@@ -12,7 +12,7 @@ $(document).ready(function() {
 
     $("#answer").fadeIn(4000);
 
-    var randomNumber = Math.random();
+    varr randomNumber = Mathh.random();
 
     var randomNumberForListOfAnswers = randomNumber * this.listOfAnswers.length;
 
